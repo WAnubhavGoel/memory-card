@@ -1,0 +1,75 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #eee;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.loading {
+  color: #777;
+  margin-top: 2rem;
+}
+
+/* Modal overlay — covers the whole screen */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: grey;
+  color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lostText {
+  font-size: 1.75rem;
+  color: white;
+}
+
+.restartBtn {
+  background: #c0c0c0;
+  color: yellow;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app-footer {
+  margin-top: 2.5rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.app-footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}

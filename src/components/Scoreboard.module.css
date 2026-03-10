@@ -1,0 +1,12 @@
+.scoreboard {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #ccc;
+}
+
+.best {
+  color: yellow;
+}
